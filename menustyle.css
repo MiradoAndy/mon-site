@@ -1,0 +1,337 @@
+/* Style de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles du menu fixe */
+.menu-fixe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.menu-fixe .nav ul {
+    list-style-type: none;
+    text-align: center;
+    float: right;
+}
+
+.menu-fixe .nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu-fixe .nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    background-color: #ccc;
+    border-radius: 12px;
+}
+
+.menu-fixe .nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Style de la page pour simuler le contenu */
+.section {
+    padding: 80px 20px;
+    min-height: 100vh;
+    background-color: yellow;
+}
+
+.pair {
+    background-color: yellowgreen;
+}
+
+.section h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Styles du footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: table;
+}
+
+.footer-col {
+    display: table-cell;
+    width: 50%;
+    vertical-align: top;
+    padding: 10px;
+    text-align: left;
+}
+
+.footer-col h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.footer-col ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #fff;
+}
+
+/* Copyright */
+.footer-copyright {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.photolarge {
+    text-align: center;
+}
+
+.soratrangeda {
+    text-align: center;
+}
+
+.soratrakely {
+    text-align: center;
+}
+
+.soratrakelytohiny {
+    margin-top: 1%;
+    text-align: center;
+}
+
+/* div {
+    border: 1px solid black;
+} */
+
+.lien {
+    margin-top: 4%;
+}
+
+.lien1 {
+    float: left;
+    margin-left: 30%;
+    margin-right: 10%;
+    padding: 1%;
+    border-radius: 40px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.lien2 {
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+    border-radius: 40px;
+    background-color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
+
+.soratra1 {
+    text-align: center;
+}
+
+.sarykely {
+    margin-right: 40%;
+    float: left;
+}
+
+.s1 {
+    /* margin-right: 75%; */
+    float: left;
+    width: 25%;
+}
+
+.sary1 {
+    text-align: center;
+}
+
+.s2 {
+    /* margin-right: 75%; */
+    float: left;
+    width: 25%;
+}
+
+.sary2 {
+    text-align: center;
+}
+
+.soratra2 {
+    text-align: center;
+}
+
+.soratra1kely {
+    text-align: center;
+}
+
+.soratra2kely {
+    text-align: center;
+}
+
+.p1 {
+    text-align: center;
+}
+
+.p2 {
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+
+.s3 {
+    float: left;
+    width: 25%;
+}
+
+.sary3 {
+    text-align: center;
+}
+
+.soratra3 {
+    text-align: center;
+}
+
+.soratra3kely {
+    text-align: center;
+}
+
+.s4 {
+    float: left;
+    width: 25%;
+}
+
+.sary4 {
+    text-align: center;
+}
+
+.soratra4 {
+    text-align: center;
+}
+
+.soratra4kely {
+    text-align: center;
+}
+
+.photog {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.photod {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.ph1 {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 25%;
+    text-align: center;
+}
+
+.ph2 {
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 2%;
+}
+.sr1 {
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.sr2 {
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 1%;
+}.sr3 {
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 1%;
+}.sr4 {
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.sra {
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+}
+.srb {
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+}.srd {
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+}.sre {
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+}
+.sr5 {
+    margin-right: 25%;
+    margin-left: 25%;
+    border: 1px solid black;
+}
+.fb {
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+}
